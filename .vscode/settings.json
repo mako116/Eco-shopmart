@@ -1,0 +1,4 @@
+{
+    "avdmanager.executable": "c:\\Src\\haxm-master\\HaxmLoader\\haxm_loader.c",
+    "avdmanager.sdkManager": "c:\\Src\\flutter\\cmdline-tools\\bin\\sdkmanager.bat"
+}
