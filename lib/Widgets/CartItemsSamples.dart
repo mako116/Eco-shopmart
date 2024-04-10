@@ -32,6 +32,38 @@ class CartItemsSamples extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Text(
+                      "Product Title",
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                        color: Color(0xff4c53a5),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Spacer(),
+              Padding(
+                padding: EdgeInsets.symmetric(vertical: 5),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    Icon(
+                      Icons.delete,
+                      color: Colors.red,
+                    ),
+                    Row(
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(4),
+                          decoration: BoxDecoration(color: Colors.white),
+                        )
+                      ],
+                    )
+                  ],
                 ),
               )
             ],
