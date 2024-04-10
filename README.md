@@ -1,6 +1,6 @@
 # shoppingmart
 
-this is an ecommerce app for buying and selling
+this is an ecommerce app for buying and selling of products including (clothes, gadgets and foodstuffs)
 
 ## Getting Started
 
