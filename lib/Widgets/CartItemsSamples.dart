@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class CartItemsSamples extends StatelessWidget {
@@ -59,7 +60,14 @@ class CartItemsSamples extends StatelessWidget {
                       children: [
                         Container(
                           padding: EdgeInsets.all(4),
-                          decoration: BoxDecoration(color: Colors.white),
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                          child: Icon(
+                            CupertinoIcons.minus,
+                            size: 18,
+                          ),
                         )
                       ],
                     )
