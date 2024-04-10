@@ -4,7 +4,7 @@ this is an ecommerce app for buying and selling of products including (clothes, 
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a Flutter application for me and am glad i build something amazing.
 
 A few resources to get you started if this is your first Flutter project:
 
